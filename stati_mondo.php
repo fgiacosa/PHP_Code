@@ -1218,8 +1218,8 @@
 	);
 	foreach ($worldCountries as $country) {
 		echo '<h3>'.$country['country_name'].'</h3>';
-		echo '<p>Codice 3:'.$country['code3'].'</p>';
-		echo '<p>Codice 2:'.$country['code2'].'</p>';
+		echo '<p>Codice 3: '.$country['code3'].'</p>';
+		echo '<p>Codice 2: '.$country['code2'].'</p>';
 		echo '<hr>';
 	}
 ?>
